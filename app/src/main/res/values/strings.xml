@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Art Quiz</string>
+    <string name="title">World most famous paintings</string>
+    <string name="question1">Which artist painted Guernica?</string>
+    <string name="question2">This famous painting is by:</string>
+    <string name="question3">This painting is by:</string>
+    <string name="question4">Who painted this famous scene?</string>
+    <string name="question5">Who painted this picture?</string>
+    <string name="question6">Which artist painted The Starry Night?</string>
+    <string name="question7">Who painted this famous portrait?</string>
+    <string name="van_gogh">Vincent van Gogh</string>
+    <string name="salvador_dali">Salvador Dali</string>
+    <string name="rembrandt">Rembrandt</string>
+    <string name="claude_monet">Claude Monet</string>
+    <string name="caravaggio">Caravaggio</string>
+    <string name="picasso">Pablo Picasso</string>
+    <string name="da_vinci">Leonardo da Vinci</string>
+    <string name="munch">Edvard Munch</string>
+    <string name="titian">Titian</string>
+    <string name="raphael">Raphael</string>
+    <string name="botticelli">Sandro Botticelli</string>
+    <string name="michelangelo">Michelangelo</string>
+    <string name="vermeer">Johannes Vermeer</string>
+    <string name="elder"> Pieter Bruegel the Elder</string>
+    <string name="submit">Submit</string>
+    <string name="edit_text_hint">Insert Name</string>
+    <string name="start_activity">Quiz</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="try_again_button">Try again</string>
+    <string name="result_string">string</string>
+    <string name="result">Final Result</string>
+    <string name="quiz">Quiz</string>
+</resources>

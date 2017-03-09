@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.artquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/text_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:imeOptions="actionDone"
+            android:hint="@string/edit_text_hint" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_one"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/guernica" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question1"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q1"
+                style="@style/radio_button"
+                android:text="@string/caravaggio" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q1"
+                style="@style/radio_button"
+                android:text="@string/picasso" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q1"
+                style="@style/radio_button"
+                android:text="@string/titian" />
+
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_two"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/girl_with_a_pearl_earring" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question2"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q2"
+                style="@style/radio_button"
+                android:text="@string/da_vinci" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q2"
+                style="@style/radio_button"
+                android:text="@string/salvador_dali" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q2"
+                style="@style/radio_button"
+                android:text="@string/vermeer" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_two"
+
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/night_watch_rembrandt" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question3"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q3"
+                style="@style/radio_button"
+                android:text="@string/botticelli" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q3"
+                style="@style/radio_button"
+                android:text="@string/claude_monet" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q3"
+                style="@style/radio_button"
+                android:text="@string/rembrandt" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_two"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/beheading_of_saint_john_the_baptist_caravaggio" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question4"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q4"
+                style="@style/radio_button"
+                android:text="@string/titian" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q4"
+                style="@style/radio_button"
+                android:text="@string/caravaggio" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q4"
+                style="@style/radio_button"
+                android:text="@string/raphael" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view5"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_three"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/the_creation_of_adam" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question5"
+           />
+
+        <RadioGroup
+            android:id="@+id/radio_group5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q5"
+                style="@style/radio_button"
+                android:text="@string/michelangelo" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q5"
+                style="@style/radio_button"
+                android:text="@string/salvador_dali" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q5"
+                style="@style/radio_button"
+                android:text="@string/claude_monet" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view6"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_two"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/the_scream" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question2"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q6"
+                style="@style/radio_button"
+                android:text="@string/da_vinci" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q6"
+                style="@style/radio_button"
+                android:text="@string/caravaggio" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q6"
+                style="@style/radio_button"
+                android:text="@string/munch" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view7"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_four"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/the_fall_of_icarus" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question4"
+           />
+
+        <RadioGroup
+            android:id="@+id/radio_group7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q7"
+                style="@style/radio_button"
+                android:text="@string/elder" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q7"
+                style="@style/radio_button"
+                android:text="@string/botticelli" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q7"
+                style="@style/radio_button"
+                android:text="@string/michelangelo" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view8"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_four"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/starry_night" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question6"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_group8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q8"
+                style="@style/radio_button"
+                android:text="@string/rembrandt" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q8"
+                style="@style/radio_button"
+                android:text="@string/van_gogh" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q8"
+                style="@style/radio_button"
+                android:text="@string/vermeer" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view9"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_three"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/the_persistence_of_memory_1" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question2"
+             />
+
+        <RadioGroup
+            android:id="@+id/radio_group9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom_one"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_button1q9"
+                style="@style/radio_button"
+                android:text="@string/salvador_dali" />
+
+            <RadioButton
+                android:id="@+id/radio_button2q9"
+                style="@style/radio_button"
+                android:text="@string/picasso" />
+
+            <RadioButton
+                android:id="@+id/radio_button3q9"
+                style="@style/radio_button"
+                android:text="@string/titian" />
+        </RadioGroup>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view10"
+            style="@style/card_view"
+            android:layout_height="@dimen/height_five"
+            cardView:cardBackgroundColor="@color/divider"
+            cardView:cardElevation="@dimen/elevation_one">
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/mona_lisa" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question7"
+           />
+
+        <CheckBox
+            android:id="@+id/check_box1q10"
+            style="@style/radio_button"
+            android:text="@string/raphael" />
+
+        <CheckBox
+            android:id="@+id/check_box2q10"
+            style="@style/radio_button"
+            android:text="@string/munch" />
+
+        <CheckBox
+            android:id="@+id/check_box3q10"
+            style="@style/radio_button"
+            android:text="@string/da_vinci" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_top_one"
+            android:onClick="submit"
+            android:text="@string/submit"
+            android:textColor="@color/primary" />
+    </LinearLayout>
+</ScrollView>

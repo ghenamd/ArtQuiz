@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/mr_bean"
+    android:layout_width="match_parent"
+    android:id="@+id/result_activity"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/elevation_one"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:id="@+id/result"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:text="@string/result_string"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/try_again"
+        android:layout_margin="@dimen/margin_bottom_one"
+        android:background="@drawable/mybutton"
+        android:text="@string/try_again_button"
+        android:textColor="@color/primary_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
