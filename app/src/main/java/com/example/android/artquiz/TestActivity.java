@@ -219,10 +219,4 @@ public class TestActivity extends AppCompatActivity {
             Log.v("OnRestoreInstanceState", "Your points have been restored");
         }
 
-
-
-
-
-
-
 }
