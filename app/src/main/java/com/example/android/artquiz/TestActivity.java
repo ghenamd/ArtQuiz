@@ -3,7 +3,6 @@ package com.example.android.artquiz;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -208,7 +207,6 @@ public class TestActivity extends AppCompatActivity {
         @Override
         public void onSaveInstanceState(Bundle savedInstanceState) {
             savedInstanceState.putInt("STATE_POINTS", points);
-            Log.v("OnSaveInstanceState", "Your points have been saved");
             super.onSaveInstanceState(savedInstanceState);
         }
 
@@ -216,7 +214,7 @@ public class TestActivity extends AppCompatActivity {
         public void onRestoreInstanceState(Bundle savedInstanceState) {
             super.onRestoreInstanceState(savedInstanceState);
             points = savedInstanceState.getInt(STATE_POINTS);
-            Log.v("OnRestoreInstanceState", "Your points have been restored");
+
         }
 
 }
