@@ -10,10 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/elevation_one"
         android:textSize="@dimen/title_text_size"
-        android:textColor="#FFFFFF"
-        android:fontFamily="sans-serif"
+        android:textColor="@color/icons"
         android:id="@+id/result"
-        android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:layout_centerInParent="true"
         android:text="@string/result_string"/>

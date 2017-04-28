@@ -116,60 +116,60 @@ public class TestActivity extends AppCompatActivity {
             //This conditional adds a point if the correct button is ticked.
             if (button2Q1.isChecked())
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button3Q2.isChecked())
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button3Q3.isChecked())
 
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button2Q4.isChecked())
 
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button1Q5.isChecked())
 
             {
-                points = points + 1;
+                points +=  1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button3Q6.isChecked())
 
             {
-                points = points + 1;
+                points +=  1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button1Q7.isChecked())
 
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button2Q8.isChecked())
 
             {
-                points = points + 1;
+                points += 1;
             }
             //This conditional adds a point if the correct button is ticked.
             if (button1Q9.isChecked())
 
             {
-                points = points + 1;
+                points += 1;
             }
 
             //This conditional adds a point if the correct box is ticked.
             if (chkArray[2].isChecked())
             {
-                points = points + 1;
+                points += 1;
             }
 
 

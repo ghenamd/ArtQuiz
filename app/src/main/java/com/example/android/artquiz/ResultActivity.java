@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by Ghena on 02/03/2017.
@@ -34,6 +35,7 @@ public class ResultActivity extends AppCompatActivity {
         } else {
             result.setText(CONGRATULATIONS+ name + YOU_SCORED + points + " points !");
         }
+        Toast.makeText(ResultActivity.this,name+YOU_SCORED+points,Toast.LENGTH_SHORT).show();
 
         // When button TRY AGAIN is pressed it restarts the test
         TextView tryAgain = (TextView) findViewById(R.id.try_again);
