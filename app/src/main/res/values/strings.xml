@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Art Quiz</string>
     <string name="title">World most famous paintings</string>
-    <string name="question1">Which artist painted Guernica?</string>
+    <string name="question1">What is the name of this painting and who painted it?</string>
     <string name="question2">This famous painting is by:</string>
     <string name="question3">This painting is by:</string>
     <string name="question4">Who painted this famous scene?</string>
@@ -30,4 +30,7 @@
     <string name="result_string">string</string>
     <string name="result">Final Result</string>
     <string name="quiz">Quiz</string>
+    <string name="mona_lisa">Mona Lisa</string>
+    <string name="guernica">Guernica</string>
+    <string name="the_creation_of_adam">The Creation of Adam</string>
 </resources>

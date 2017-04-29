@@ -17,14 +17,13 @@
         android:orientation="vertical">
 
 
-
         <EditText
             android:id="@+id/text_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapWords"
+            android:hint="@string/edit_text_hint"
             android:imeOptions="actionDone"
-            android:hint="@string/edit_text_hint" />
+            android:inputType="textCapWords" />
 
         <android.support.v7.widget.CardView
             android:id="@+id/card_view1"
@@ -39,32 +38,33 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question1"
-            />
+            android:text="@string/question1" />
 
-        <RadioGroup
-            android:id="@+id/radio_group1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin_bottom_one"
-            android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/check_box1q1"
+            style="@style/radio_button"
+            android:text="@string/caravaggio" />
 
-            <RadioButton
-                android:id="@+id/radio_button1q1"
-                style="@style/radio_button"
-                android:text="@string/caravaggio" />
-
-            <RadioButton
-                android:id="@+id/radio_button2q1"
-                style="@style/radio_button"
-                android:text="@string/picasso" />
-
-            <RadioButton
-                android:id="@+id/radio_button3q1"
-                style="@style/radio_button"
-                android:text="@string/titian" />
-
-        </RadioGroup>
+        <CheckBox
+            android:id="@+id/check_box2q1"
+            style="@style/radio_button"
+            android:text="@string/picasso" />
+        <CheckBox
+            android:id="@+id/check_box3q1"
+            style="@style/radio_button"
+            android:text="@string/titian" />
+        <CheckBox
+            android:id="@+id/check_box4q1"
+            style="@style/radio_button"
+            android:text="@string/mona_lisa" />
+        <CheckBox
+            android:id="@+id/check_box5q1"
+            style="@style/radio_button"
+            android:text="@string/guernica" />
+        <CheckBox
+            android:id="@+id/check_box6q1"
+            style="@style/radio_button"
+            android:text="@string/the_creation_of_adam" />
 
         <android.support.v7.widget.CardView
             android:id="@+id/card_view2"
@@ -79,8 +79,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question2"
-            />
+            android:text="@string/question2" />
 
         <RadioGroup
             android:id="@+id/radio_group2"
@@ -118,8 +117,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question3"
-            />
+            android:text="@string/question3" />
 
         <RadioGroup
             android:id="@+id/radio_group3"
@@ -157,8 +155,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question4"
-            />
+            android:text="@string/question4" />
 
         <RadioGroup
             android:id="@+id/radio_group4"
@@ -196,8 +193,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question5"
-           />
+            android:text="@string/question5" />
 
         <RadioGroup
             android:id="@+id/radio_group5"
@@ -235,8 +231,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question2"
-            />
+            android:text="@string/question2" />
 
         <RadioGroup
             android:id="@+id/radio_group6"
@@ -274,8 +269,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question4"
-           />
+            android:text="@string/question4" />
 
         <RadioGroup
             android:id="@+id/radio_group7"
@@ -313,8 +307,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question6"
-            />
+            android:text="@string/question6" />
 
         <RadioGroup
             android:id="@+id/radio_group8"
@@ -352,8 +345,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question2"
-             />
+            android:text="@string/question2" />
 
         <RadioGroup
             android:id="@+id/radio_group9"
@@ -391,8 +383,7 @@
 
         <TextView
             style="@style/questions"
-            android:text="@string/question7"
-           />
+            android:text="@string/question7" />
 
         <CheckBox
             android:id="@+id/check_box1q10"
