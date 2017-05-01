@@ -12,7 +12,7 @@ import android.widget.Toast;
  */
 
 public class ResultActivity extends AppCompatActivity {
-    static final String CONGRATULATIONS = "Congratulations ";
+    static final String CONGRATULATIONS = "Congratulations  ";
     static final String YOU_SCORED = " you scored ";
 
 
