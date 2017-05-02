@@ -14,14 +14,11 @@ import android.widget.Toast;
 public class ResultActivity extends AppCompatActivity {
     static final String CONGRATULATIONS = "Congratulations  ";
     static final String YOU_SCORED = " you scored ";
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(R.string.result);//Setting Title of the current activity
         setContentView(R.layout.result_activity);
-
 
         Bundle person = this.getIntent().getExtras();// gets the Intent sent from TestActivity.java
         String name = person.getString("person");
